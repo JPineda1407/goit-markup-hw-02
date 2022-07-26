@@ -1,0 +1,429 @@
+/* Se aplicará a todas las etiquetas con clase title */
+.title {
+    font-weight: 500;
+  }
+  
+  /* Se aplicará a todas las etiquetas con clase text */
+  .text {
+    color: brown;
+    font-size: 18px;
+  }
+  
+  /* Se aplicará a todas las etiquetas con clase link */
+  .link {
+    text-decoration: none;
+  }
+  /* Estudio Web */
+
+
+.webstudio {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+/* identical to box height */
+
+    text-align: right;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+.estudio {
+    /* Estudio */
+
+
+position: absolute;
+width: 49px;
+height: 16px;
+left: 453px;
+top: 32px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+
+}
+.portafolio {/* Portafolio */
+
+
+    position: absolute;
+    width: 65px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+    }
+
+.contactos {/* Сontactos */
+
+
+        position: absolute;
+        width: 67px;
+        height: 16px;
+        left: 667px;
+        top: 32px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        
+        color: #212121;
+        }
+.email {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #2196F3;
+    }
+.tel { 
+    position: absolute;
+    width: 118px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #757575;
+}
+.soluciones {/* SOLUCIONES EFICACES PARA SU NEGOCIO */
+
+
+
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 448px;
+    top: 80px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    /* or 136% */
+    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    }
+.fondo {/* Bg */
+
+
+    position: absolute;
+    width: 1600px;
+    height: 150px;
+    left: -4px;
+    top: 80px;
+    
+    background: #2F303A
+}
+.atndetail{/* ATENCIÓN A LOS DETALLES */
+
+
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 215px;
+    top: 280px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+    }
+.boton {
+    width: 197px;
+    height: 30px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 188% */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}    
+    .framebut {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 32px;
+        gap: 10px;
+        
+        position: absolute;
+        width: 261px;
+        height: 50px;
+        left: 50px;
+        top: 180px;
+        
+        background: #2196F3;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+    }
+    .atdettext {
+        position: absolute;
+        width: 270px;
+        height: 75px;
+        left: 215px;
+        top: 290px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        
+        letter-spacing: 0.03em;
+        
+        color: #757575;}
+.puntualidad {/* PUNTUALIDAD */
+
+
+            position: absolute;
+            width: 270px;
+            height: 16px;
+            left: 515px;
+            top: 280px;
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;}
+.punttext {position: absolute;
+                width: 270px;
+                height: 96px;
+                left: 515px;
+                top: 290px;
+                
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+                /* or 171% */
+                
+                letter-spacing: 0.03em;}
+.planificacion {/* PLANIFICACIÓN */
+
+
+    position: absolute;
+    width: 270px;
+    height: 16px;
+    left: 815px;
+    top: 280px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+    }
+.plantext {/* Usted podrá observar y participar en cada fase del desarrollo y aplicación de soluciones. */
+
+
+    position: absolute;
+    width: 270px;
+    height: 75px;
+    left: 815px;
+    top: 290px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;}
+    .tecnologia{/* TEGNOLOGÍA MODERNA */
+
+
+        position: absolute;
+        width: 270px;
+        height: 16px;
+        left: 1115px;
+        top: 280px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        
+        color: #212121;}
+        
+        .tecmoderna {/* Usamos herramientas innovadoras para resolver las tareas asignadas. Es hora de simplificar los procesos laborales. */
+
+
+            position: absolute;
+            width: 270px;
+            height: 75px;
+            left: 1115px;
+            top: 290px;
+            
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            /* or 171% */
+            
+            letter-spacing: 0.03em;
+            
+            color: #757575;
+            }
+
+.fondofooter {
+/* Pie de página bg */
+
+
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 2158px;
+
+background: #2F303A;
+
+}
+.direccion-uno {position: absolute;
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2258px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;}
+    .maildos {position: absolute;
+        width: 231px;
+        height: 21px;
+        left: 215px;
+        top: 2306px;
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        
+        letter-spacing: 0.03em;
+        
+        color: rgba(255, 255, 255, 0.6);}
+.teldos {
+    position: absolute;
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2329px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+
+}
+.webstudiodos {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2218px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    /* identical to box height */
+    
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;}
