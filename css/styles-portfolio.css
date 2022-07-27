@@ -427,3 +427,18 @@ color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
     
     color: #2196F3;}
+    .social-links .link {
+        color: teal;
+      }
+      
+      .social-links .link:hover,
+      .social-links .link:focus {
+        color: orange;
+      }
+      
+      .social-links .link:active {
+        color: red;
+      }
+    .bod {
+        color:rgb(21, 31, 31)
+    }
